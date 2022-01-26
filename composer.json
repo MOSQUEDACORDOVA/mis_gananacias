@@ -1,7 +1,7 @@
 {
 	"name": "tecdiary/sma",
 	"version": "3.4.50",
-	"description": "Stock Manager Advance",
+	"description": "Mis Ganancias",
 	"type": "project",
 	"require": {
 		"php": "^7.3|^8.0",
