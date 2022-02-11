@@ -1,23 +1,10 @@
-@font-face {
-	font-family: 'Lato';
-	font-style: normal;
-	font-weight: 400;
-	src: local('Lato Regular'), local('Lato-Regular'), url(../fonts/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
-}
-@font-face {
-	font-family: 'Ubuntu';
-	font-style: normal;
-	font-weight: 700;
-	src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(../fonts/trnbTfqisuuhRVI3i45C5w.woff) format('woff');
-}
+
 body {
-	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	background:url('../images/bg2.png');
 	margin: 0; 
 	padding: 0;
 }
 h3 {
-	font-family: 'Ubuntu', sans-serif;
 	font-size:2em;
 	text-align:center;
 	padding:20px;
@@ -55,7 +42,6 @@ p {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  font-family: Arial;
   color: #ffffff;
   font-size: 1.5em;
   width: 100px;

@@ -10,12 +10,8 @@
 .clearfix:after {
   clear: both;
 }
-.fuelux .serif {
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-.fuelux .monospace {
-  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-}
+
+
 .fuelux .text-sm {
   font-size: 11.9px;
 }

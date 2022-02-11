@@ -301,7 +301,6 @@ h6 {
     font-weight: bold;
     font-size: 8px;
     float: right;
-    font-family: "Times New Roman", Times, serif;
     color: #FFF;
     width: 50px;
     margin-left: -40px;
@@ -1581,7 +1580,6 @@ label { margin-top: 5px;
     margin: 5px;
 }
 #fileList li span, #cfileList li span, #acfileList li span {
-    font-family: Tahoma, Geneva, sans-serif;
     font-size:10px;
 }
 #fileList li span, #cfileList li span, #acfileList li span {
@@ -2042,7 +2040,6 @@ animation: blink 1s steps(2, start) infinite;
     .btn-group .btn { width: 50%; }
 }
 #chart text, .hc-tip {
-    font-family: 'Ubuntu', sans-serif !important;
     font-size: 15px !important;
 }
 
