@@ -308,8 +308,8 @@
             <div class="container">
                 <div class="alert alert-info margin-bottom-no">
                     <p>
-                        <strong>Shop module is not complete item but add-on to Stock Manager Advance and is available separately.</strong><br>
-                        This is joint demo for main item (Stock Manager Advance) and add-ons (POS & Shop Module). Please check the item page on codecanyon.net for more info about what's not included in the item and you must read the page there before purchase. Thank you
+                        <strong>Shop module is not complete item but add-on to Mis gannacias and is available separately.</strong><br>
+                        This is joint demo for main item (Mis gannacias) and add-ons (POS & Shop Module). Please check the item page on codecanyon.net for more info about what's not included in the item and you must read the page there before purchase. Thank you
                     </p>
                 </div>
             </div>

@@ -59,7 +59,7 @@ foreach ($monthly_purchases as $month_purchase) {
             },
             labels: {
                 items: [{
-                    html: 'Stock Manager Overview Chart',
+                    html: 'Mis gannacias Overview Chart',
                     style: {
                         left: '40px',
                         top: '8px',

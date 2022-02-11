@@ -2131,7 +2131,7 @@ class system_settings extends MY_Controller
             $tax1 = ($this->input->post('tax_rate') != 0) ? 1 : 0;
             $tax2 = ($this->input->post('tax_rate2') != 0) ? 1 : 0;
 
-            $data = ['site_name' => DEMO ? 'Stock Manager Advance' : $this->input->post('site_name'),
+            $data = ['site_name' => DEMO ? 'Mis gannacias' : $this->input->post('site_name'),
                 'rows_per_page'  => $this->input->post('rows_per_page'),
                 'dateformat'     => $this->input->post('dateformat'),
                 'timezone'       => DEMO ? 'Asia/Kuala_Lumpur' : $this->input->post('timezone'),

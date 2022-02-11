@@ -10,7 +10,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
  * 10 de Maio de 2016
  *
  * Package:
- * Stock Manage Advance v3.0.2.8
+ * Mis gannacias v3.0.2.8
  *
  * Translated by:
  * Robson Gonçalves (POP Computadores) robson@popcomputadores.com.br

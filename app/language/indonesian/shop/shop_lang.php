@@ -10,7 +10,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
  * 9th March 2017
  *
  * Package:
- * Stock Manage Advance v3.0
+ * Mis gannacias v3.0
  *
  * Translated by:
  * Bram Andrian (barulaku) bram.andrian@gmail.com

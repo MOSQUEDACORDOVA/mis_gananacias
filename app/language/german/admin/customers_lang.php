@@ -11,7 +11,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
  * 29th January 2016
  *
  * Package:
- * Stock Manage Advance v3.0Delete Customers
+ * Mis gannacias v3.0Delete Customers
  *
  * You can translate this file to your language.
  * For instruction on new language setup, please visit the documentations.

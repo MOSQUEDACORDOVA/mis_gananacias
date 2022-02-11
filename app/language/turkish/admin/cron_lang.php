@@ -10,7 +10,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
  * 12th August 2016
  *
  * Package:
- * Stock Manage Advance v3.0
+ * Mis gannacias v3.0
  *
  * The %d, %s will replaced. You can translate this file to your language.
  * For instruction on new language setup, please visit the documentations.
