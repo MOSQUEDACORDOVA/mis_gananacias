@@ -10,7 +10,7 @@
     <meta http-equiv="cache-control" content="no-cache"/>
     <meta http-equiv="expires" content="0"/>
     <meta http-equiv="pragma" content="no-cache"/>
-    <link rel="shortcut icon" width="40px" height="40px"  href="<?=$assets?>images/icon.png"/>
+    <link rel="shortcut icon"  href="<?=$assets?>images/icon.png"/>
     <link rel="stylesheet" href="<?=$assets?>styles/theme.css" type="text/css"/>
     <link rel="stylesheet" href="<?=$assets?>styles/style.css" type="text/css"/>
     <link rel="stylesheet" href="<?=$assets?>pos/css/posajax.css" type="text/css"/>
