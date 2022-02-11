@@ -9,8 +9,8 @@ html {
     height: 100%;
 }
 body {
-    background: #F3F3F3;
-    color: #333;
+    background: #f8f8ff;
+    color: #7676a8;
     border: none;
     font-weight: 400;
     margin: 0;
@@ -82,7 +82,6 @@ h6 {
     transition: transform 0.2s ease-in-out 0s, margin 0.2s ease-in-out 0s;
 }
 #sidebar-left {
-    background-color: #000;
     padding: 10px;
     transition: transform 0.2s ease-in-out 0s, width 0.2s ease-in-out 0s;
 }
@@ -552,7 +551,6 @@ a:focus { outline: 0; }
     margin: 0;
     min-height: 40px;
     border: none;
-    background: #000;
     border-radius: 0px;
     z-index: 2;
 }
@@ -588,7 +586,7 @@ a.navbar-brand {
     padding: 9px 0 10px 10px !important;
 }
 a.navbar-brand span {
-    color: #fff;
+    color: #00003d;
     text-shadow: none;
 }
 a.navbar-brand.noBg {
@@ -627,7 +625,7 @@ a.navbar-brand.noBg {
     min-width: 40px;
     width: auto;
     background: #40454a;
-    color: #fff !important;
+    color: #00003d !important;
     text-shadow: none !important;
     padding: 5px 10px !important;
     margin: 5px 3px;
@@ -774,10 +772,8 @@ a#main-menu-act i:hover {
     margin: 0px;
     height: 40px;
     padding: 1px 0 0 0;
-    color: #CCC;
     border: none;
     border-bottom: 1px solid #111;
-    background: #000;
     border-radius: 0px;
     text-decoration: none;
     display: block;
