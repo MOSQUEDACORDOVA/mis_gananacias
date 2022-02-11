@@ -5,7 +5,7 @@
     <base href="<?= site_url() ?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $page_title ?> - <?= $Settings->site_name ?></title>
-    <link rel="shortcut icon" href="<?= $assets ?>images/icon.png"/>
+    <link rel="shortcut icon" width="40px" height="40px"  href="<?= $assets ?>images/icon.png"/>
     <link href="<?= $assets ?>styles/theme.css" rel="stylesheet"/>
     <link href="<?= $assets ?>styles/style.css" rel="stylesheet"/>
     <link href="<?= base_url('assets/custom/custom.css') ?>" rel="stylesheet"/>
