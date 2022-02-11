@@ -29,7 +29,7 @@ body.swal2-iosfix {
 
 .swal2-modal {
   background-color: #fff;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
   border-radius: 5px;
   box-sizing: border-box;
   text-align: center;
@@ -108,7 +108,6 @@ body.swal2-iosfix {
   .swal2-modal .swal2-close {
     font-size: 36px;
     line-height: 36px;
-    font-family: serif;
     position: absolute;
     top: 5px;
     right: 13px;
@@ -319,21 +318,20 @@ body.swal2-iosfix {
                 transform: rotate(-45deg);
         right: 16px; }
   .swal2-icon.swal2-warning {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
     color: #f8bb86;
     border-color: #facea8;
     font-size: 60px;
     line-height: 80px;
     text-align: center; }
   .swal2-icon.swal2-info {
-    font-family: 'Open Sans', sans-serif;
     color: #3fc3ee;
     border-color: #9de0f6;
     font-size: 60px;
     line-height: 80px;
     text-align: center; }
   .swal2-icon.swal2-question {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    
     color: #87adbd;
     border-color: #c9dae1;
     font-size: 60px;

@@ -225,7 +225,6 @@ textarea {
 
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #555555;
@@ -741,7 +740,6 @@ h4,
 h5,
 h6 {
   margin: 10px 0;
-  font-family: 'Telex', sans-serif;
   font-weight: bold;
   line-height: 20px;
   color: #317eac;
@@ -974,7 +972,6 @@ address {
 code,
 pre {
   padding: 0 3px 2px;
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   font-size: 12px;
   color: #333333;
   -webkit-border-radius: 3px;
@@ -1063,12 +1060,7 @@ textarea {
   line-height: 20px;
 }
 
-input,
-button,
-select,
-textarea {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+
 
 label {
   display: block;
@@ -4510,7 +4502,6 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
   padding: 4px 14px;
   margin-bottom: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -6158,7 +6149,6 @@ a.badge:focus {
 
 .navbar .brand {
   padding: 5px 20px 5px;
-  font-family: 'Telex', sans-serif;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -6189,7 +6179,6 @@ a.badge:focus {
 
 @media (max-width: 979px) {
   .navbar .nav-collapse .nav li > a {
-    font-family: 'Telex', sans-serif;
     font-weight: normal;
     color: #ffffff;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
@@ -6229,7 +6218,6 @@ a.badge:focus {
 }
 
 div.subnav {
-  font-family: 'Telex', sans-serif;
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.2);
 }
 
