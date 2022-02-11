@@ -544,7 +544,8 @@ class Sales extends MY_Controller
                 if (!$this->upload->do_upload()) {
                     $error = $this->upload->display_errors();
                     $this->session->set_flashdata('error', $error);
-                    redirect($_SERVER['HTTP_REFERER']);
+                    //redirect($_SERVER['HTTP_REFERER']);
+                    admin_redirect('pos/view/'.$this->input->post('sale_id'));
                 }
                 $photo                 = $this->upload->file_name;
                 $payment['attachment'] = $photo;
@@ -553,7 +554,8 @@ class Sales extends MY_Controller
             //$this->sma->print_arrays($payment);
         } elseif ($this->input->post('add_payment')) {
             $this->session->set_flashdata('error', validation_errors());
-            redirect($_SERVER['HTTP_REFERER']);
+            //redirect($_SERVER['HTTP_REFERER']);
+            admin_redirect('pos/view/'.$this->input->post('sale_id'));
         }
 
         if ($this->form_validation->run() == true && $this->sales_model->addPayment($payment, $customer_id)) {
@@ -562,7 +564,8 @@ class Sales extends MY_Controller
                 $this->sms->paymentReceived($sale->id, $payment['reference_no'], $payment['amount']);
             }
             $this->session->set_flashdata('message', lang('payment_added'));
-            redirect($_SERVER['HTTP_REFERER']);
+            //redirect($_SERVER['HTTP_REFERER']);
+            admin_redirect('pos/view/'.$this->input->post('sale_id'));
         } else {
             $this->data['error'] = (validation_errors() ? validation_errors() : $this->session->flashdata('error'));
             if ($sale->sale_status == 'returned' && $sale->paid == $sale->grand_total) {

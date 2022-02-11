@@ -1089,6 +1089,12 @@ function formatDecimal(x, d) {
     }
     return parseFloat(accounting.formatNumber(x, d, '', '.'));
 }
+function formatDecimal20(x, d) {
+    if (!d) {
+        d = site.settings.decimals_price;
+    }
+    return parseFloat(accounting.formatNumber(x, d, '', '.'));
+}
 function formatDecimals(x, d) {
     if (!d) {
         d = site.settings.decimals;

@@ -146,7 +146,17 @@ class Sma
             return null;
         }
         if (!$decimals && $decimals !== 0) {
-            $decimals = $this->Settings->decimals;
+            $decimals = $this->Settings->decimals_price;
+        }
+        return number_format($number, $decimals, '.', '');
+    }
+    public function formatDecimal20($number, $decimals = null)
+    {
+        if (!is_numeric($number)) {
+            return null;
+        }
+        if (!$decimals && $decimals !== 0) {
+            $decimals = $this->Settings->decimals_price;
         }
         return number_format($number, $decimals, '.', '');
     }
@@ -331,6 +341,7 @@ class Sma
     {
         die("<script type='text/javascript'>setTimeout(function(){ window.top.location.href = '" . ($page ? site_url($page) : ($_SERVER['HTTP_REFERER'] ?? 'welcome')) . "'; }, 10);</script>");
     }
+
 
     public function paid_opts($paid_by = null, $purchase = false, $empty_opt = false)
     {

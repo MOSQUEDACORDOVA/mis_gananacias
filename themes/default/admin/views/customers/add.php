@@ -61,7 +61,7 @@
                 </div>-->
                     <div class="form-group">
                         <?= lang('email_address', 'email_address'); ?>
-                        <input type="email" name="email" class="form-control" required="required" id="email_address"/>
+                        <input type="email" name="email" class="form-control" id="email_address"/>
                     </div>
                     <div class="form-group">
                         <?= lang('phone', 'phone'); ?>
@@ -73,14 +73,14 @@
                     </div>
                     <div class="form-group">
                         <?= lang('city', 'city'); ?>
-                        <?php echo form_input('city', '', 'class="form-control" id="city" required="required"'); ?>
+                        <?php echo form_input('city', '', 'class="form-control" id="city" '); ?>
                     </div>
                     <div class="form-group">
                         <?= lang('state', 'state'); ?>
                         <?php
                         if ($Settings->indian_gst) {
                             $states = $this->gst->getIndianStates(true);
-                            echo form_dropdown('state', $states, '', 'class="form-control select" id="state" required="required"');
+                            echo form_dropdown('state', $states, '', 'class="form-control select" id="state" ');
                         } else {
                             echo form_input('state', '', 'class="form-control" id="state"');
                         }

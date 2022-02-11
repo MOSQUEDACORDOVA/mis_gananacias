@@ -89,7 +89,7 @@ class Purchases extends MY_Controller
                             redirect($_SERVER['HTTP_REFERER']);
                         }
                     }
-                    // $unit_cost = $real_unit_cost;
+                    $unit_cost = $real_unit_cost;
                     $pr_discount      = $this->site->calculateDiscount($item_discount, $unit_cost);
                     $unit_cost        = $this->sma->formatDecimal($unit_cost - $pr_discount);
                     $item_net_cost    = $unit_cost;
