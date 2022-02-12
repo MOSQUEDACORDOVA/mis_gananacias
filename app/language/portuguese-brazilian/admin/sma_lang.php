@@ -84,10 +84,10 @@ $lang['datatables_lang'] = [
         'sSortDescending' => ': ativar para classificar a coluna decrescente',
     ],
     'oPaginate' => [
-        'sFirst'    => '<< Primeira',
-        'sLast'     => 'Última >>',
-        'sNext'     => 'Próxima >',
-        'sPrevious' => '< Anterior',
+        'sFirst'    => '<< ',
+        'sLast'     => ' >>',
+        'sNext'     => ' >',
+        'sPrevious' => '< ',
     ],
 ];
 

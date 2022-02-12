@@ -385,13 +385,15 @@ select.form-control optgroup {
 select.form-control option {
     padding: 5px 8px;
 }
+.icheckbox_square-blue{
+    border-radius: 4px;
+}
 .table th, .table td { vertical-align: middle !important; }
 .table > thead:first-child > tr:first-child > th, .table > thead:first-child > tr:first-child > td, .table-striped thead tr.primary:nth-child(odd) th {
     background-color: #4a4aff;
     color: white;
     border-color: #4a4aff;
     border-top: 1px solid #4a4aff;
-    text-align: center;
 }
 .table-responsive { margin-bottom: 0; }
 .table-responsive .form-inline select.form-control {
@@ -1636,7 +1638,7 @@ ul.enlarge li:hover span{
     font-size: 50px;
 }
 .dtBtn { margin: 5px 0 0 10px; }
-.dataTable { margin:  0 0 3px 0;}
+.dataTable { margin:  0 0 16px 0;}
 .dataTables_processing {
     position: absolute;
     top: 15px;
