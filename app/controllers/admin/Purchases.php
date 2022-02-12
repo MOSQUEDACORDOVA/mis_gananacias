@@ -1115,7 +1115,7 @@ class Purchases extends MY_Controller
         . lang('i_m_sure') . "</a> <button class='btn po-close'>" . lang('no') . "</button>\"  rel='popover'><i class=\"fa fa-trash-o\"></i> "
         . lang('delete_expense') . '</a>';
         $action = '<div class="text-center"><div class="btn-group text-left">'
-        . '<button type="button" class="btn btn-default btn-xs btn-primary dropdown-toggle" data-toggle="dropdown"><i class="fa-solid fa-ellipsis-vertical"></i> <span class="caret"></span></button>
+        . '<button type="button" class="btn btn-default btn-xs btn-primary dropdown-toggle" data-toggle="dropdown"><i class="fa-solid fa-ellipsis-vertical"></i></button>
         <ul class="dropdown-menu pull-right" role="menu">
             <li>' . $detail_link . '</li>
             <li>' . $edit_link . '</li>
@@ -1161,7 +1161,7 @@ class Purchases extends MY_Controller
         . lang('i_m_sure') . "</a> <button class='btn po-close'>" . lang('no') . "</button>\"  rel='popover'><i class=\"fa fa-trash-o\"></i> "
         . lang('delete_purchase') . '</a>';
         $action = '<div class="text-center"><div class="btn-group text-left">'
-        . '<button type="button" class="btn btn-default btn-xs btn-primary dropdown-toggle" data-toggle="dropdown"><i class="fa-solid fa-ellipsis-vertical"></i> <span class="caret"></span></button>
+        . '<button type="button" class="btn btn-default btn-xs btn-primary dropdown-toggle" data-toggle="dropdown"><i class="fa-solid fa-ellipsis-vertical"></i></button>
         <ul class="dropdown-menu pull-right" role="menu">
             <li>' . $detail_link . '</li>
             <li>' . $payments_link . '</li>
