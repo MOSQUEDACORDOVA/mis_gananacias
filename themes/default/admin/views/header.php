@@ -77,7 +77,7 @@
             <div class="header-nav">
                 <ul class="nav navbar-nav pull-right">
                     <li class="dropdown">
-                        <a class="btn tip account dropdown-toggle" data-toggle="dropdown" href="#">
+                        <a class="btn tip dropdown-toggle" data-toggle="dropdown" href="#">
                             <i class="fa fa-user"></i>
                             <!--
                             <img alt="" src="<?= $this->session->userdata('avatar') ? base_url() . 'assets/uploads/avatars/thumbs/' . $this->session->userdata('avatar') : base_url('assets/images/' . $this->session->userdata('gender') . '.png'); ?>" class="mini_avatar img-rounded">
