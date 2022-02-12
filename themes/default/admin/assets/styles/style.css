@@ -75,7 +75,7 @@ h6 {
 .sidebar-minified .lt td.sidebar-con {
     width: 0px;
 }
-#header #content{
+#header .container{
     padding-right: 78px;
 }
 #content {
