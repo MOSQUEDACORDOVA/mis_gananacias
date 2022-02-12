@@ -558,8 +558,7 @@ class Transfers extends MY_Controller
             . lang('i_m_sure') . "</a> <button class='btn po-close'>" . lang('no') . "</button>\"  rel='popover'><i class=\"fa fa-trash-o\"></i> "
             . lang('delete_transfer') . '</a>';
         $action = '<div class="text-center"><div class="btn-group text-left">'
-            . '<button type="button" class="btn btn-default btn-xs btn-primary dropdown-toggle" data-toggle="dropdown">'
-            . lang('actions') . ' <span class="caret"></span></button>
+            . '<button type="button" class="btn btn-default btn-xs btn-primary dropdown-toggle" data-toggle="dropdown"><i class="fa-solid fa-ellipsis-vertical"></i> <span class="caret"></span></button>
         <ul class="dropdown-menu pull-right" role="menu">
             <li>' . $detail_link . '</li>
             <li>' . $edit_link . '</li>

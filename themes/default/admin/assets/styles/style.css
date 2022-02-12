@@ -1638,7 +1638,12 @@ ul.enlarge li:hover span{
     font-size: 50px;
 }
 .dtBtn { margin: 5px 0 0 10px; }
-.dataTable { margin:  0 0 16px 0;}
+.dataTable { 
+    margin:  0 0 16px 0;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid #e9e9fb;
+}
 .dataTables_processing {
     position: absolute;
     top: 15px;
