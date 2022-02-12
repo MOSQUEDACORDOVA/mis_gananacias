@@ -334,14 +334,14 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td style="padding: 5px 10px; border-top: 1px solid #666; border-bottom: 1px solid #333; font-weight:bold; background:#333; color:#FFF;" colspan="2">
+                                        <td style="padding: 5px 10px; border-top: 1px solid #666;  font-weight:bold; background:#00003d; color:#FFF;" colspan="2">
                                             <?=lang('total_payable');?>
                                             <a href="#" id="pshipping">
                                                 <i class="fa fa-plus-square"></i>
                                             </a>
                                             <span id="tship"></span>
                                         </td>
-                                        <td class="text-right" style="padding:5px 10px 5px 10px; font-size: 14px;border-top: 1px solid #666; border-bottom: 1px solid #333; font-weight:bold; background:#333; color:#FFF;" colspan="2">
+                                        <td class="text-right" style="padding:5px 10px 5px 10px; font-size: 14px;border-top: 1px solid #666;  font-weight:bold; background:#00003d; color:#FFF;" colspan="2">
                                             <span id="gtotal">0.00</span>
                                         </td>
                                     </tr>

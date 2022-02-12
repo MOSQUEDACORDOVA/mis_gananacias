@@ -1674,6 +1674,7 @@ ul.enlarge li:hover span{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 .dataTables_processing {
     position: absolute;
