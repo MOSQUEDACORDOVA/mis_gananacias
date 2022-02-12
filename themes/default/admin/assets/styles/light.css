@@ -5,7 +5,7 @@
     border-left: 40px solid #e9ebec !important;
 }
 .navbar, a.navbar-brand span, .header-nav a.btn, .header-nav a.btn.account {
-    background: #428BCA;
+    background: #4a4aff;
     color: #FFF !important;
 }
 .header-nav a.btn, .header-nav a.btn.cart {
@@ -17,10 +17,10 @@
 }
 .navbar #search {
     background: #e9ebec;
-    border: 1px solid #428BCA;
+    border: 1px solid #4a4aff;
 }
 .header-nav a.btn{
-    border-left: 1px solid #428BCA;
+    border-left: 1px solid #4a4aff;
 }
 
 footer {
@@ -83,13 +83,13 @@ a#main-menu-min i:hover {
 .nav.main-menu > li > ul > li > a .chevron,
 .nav.main-menu > li > ul > li > ul > li > a .chevron,
 .nav.main-menu > li > ul > li > ul > li > ul > li > a .chevron {
-  color: #b2b8bd !important;
+  color: #7676a8 !important;
 }
 .nav.main-menu > li > a .chevron.closed:after,
 .nav.main-menu > li > ul > li > a .chevron.closed:after,
 .nav.main-menu > li > ul > li > ul > li > a .chevron.closed:after,
 .nav.main-menu > li > ul > li > ul > li > ul > li > a .chevron.closed:after {
-  color: #b2b8bd !important;
+  color: #7676a8 !important;
 }
 .nav.main-menu > li > a > i,
 .nav.main-menu > li > ul > li > a > i {
@@ -125,7 +125,7 @@ a#main-menu-min i:hover {
   background: #ced1d4;
 }
 .nav.main-menu > li.active > a > i {
-  border-right: 1px solid #428BCA;
+  border-right: 1px solid #4a4aff;
 }
 .nav.main-menu > li > ul > li.active > a > i,
 .nav.main-menu > li > ul > li > ul > li.active > a > i,
@@ -170,9 +170,9 @@ a#main-menu-min i:hover {
   border-bottom: none;
 }
 .nav.main-menu > li.active > a, .nav.main-menu > li.active > a > i, #sidebar-left.minified .sidebar-nav > ul > li.active > a .text {
-    background: #428BCA;
+    background: #4a4aff;
     color: white;
-    border-color: #428BCA;
+    border-color: #4a4aff;
 }
 .nav.main-menu > li > ul > li.active > a,
 .nav.main-menu > li > ul > li > ul > li.active > a,

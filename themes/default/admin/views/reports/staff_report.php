@@ -42,7 +42,7 @@
     .content {
         width: 100%;
         text-align: left;
-        color: #428bca;
+        color: #4a4aff;
         padding: 8px;
     }
 

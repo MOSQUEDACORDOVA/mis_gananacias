@@ -25,7 +25,7 @@
             </div>
         </div>
         <div class="col-xs-6" style="padding-left:0; padding-right:0; padding-bottom:15px;">
-            <div style="padding: 5px 10px; color: #FFF; background: #78cd51;">
+            <div style="padding: 5px 10px; color: #FFF; background: #00c799;">
                 <h4 class="bold text-muted"><?= lang('sales') ?></h4>
                 <i class="icon fa fa-heart"></i>
 
@@ -41,7 +41,7 @@
     <div class="row">
 
         <div class="col-xs-5" style="padding-left:0; padding-right:28px; padding-bottom:15px;">
-            <div style="padding: 5px 10px; color: #FFF; background: #78cd51;">
+            <div style="padding: 5px 10px; color: #FFF; background: #00c799;">
                 <h4 class="bold text-muted"><?= lang('payments_received') ?></h4>
                 <i class="icon fa fa-usd"></i>
 
@@ -57,7 +57,7 @@
             </div>
         </div>
         <div class="col-xs-2" style="padding-left:0; padding-right:28px; padding-bottom:15px;">
-            <div style="padding: 5px 10px; color: #FFF; background: #b2b8bd;">
+            <div style="padding: 5px 10px; color: #FFF; background: #7676a8;">
                 <h4 class="bold text-muted"><?= lang('payments_returned') ?></h4>
                 <i class="icon fa fa-usd"></i>
 
@@ -97,7 +97,7 @@
     <div class="row">
 
         <div class="col-xs-4" style="padding-left:0; padding-right:0; padding-bottom:15px;">
-            <div style="padding: 5px 10px; color: #FFF; background: #ff5454;">
+            <div style="padding: 5px 10px; color: #FFF; background: #ff0055;">
                 <h4 class="bold text-muted"><?= lang('profit_loss') ?></h4>
                 <i class="icon fa fa-money"></i>
 
@@ -122,7 +122,7 @@
             </div>
         </div>
         <div class="col-xs-4" style="padding-left:0; padding-right:0; padding-bottom:15px;">
-            <div style="padding: 5px 10px; color: #FFF; background: #428bca;">
+            <div style="padding: 5px 10px; color: #FFF; background: #4a4aff;">
                 <h4 class="bold text-muted"><?= lang('profit_loss') ?></h4>
                 <i class="icon fa fa-money"></i>
 
@@ -159,7 +159,7 @@
     <?php foreach ($warehouses_report as $warehouse_report) {
     ?>
     <div class="col-xs-4" style="padding-left:0; padding-right:0; padding-bottom:15px; margin-bottom:150px;">
-        <div style="padding: 5px 10px; color: #FFF; background: #428bca;">
+        <div style="padding: 5px 10px; color: #FFF; background: #4a4aff;">
             <div class="small-box padding1010 bblue">
             <h4 class="bold" style="color:#FFF;"><?= $warehouse_report['warehouse']->name . ' (' . $warehouse_report['warehouse']->code . ')'; ?></h4>
                 <i class="icon fa fa-money"></i>

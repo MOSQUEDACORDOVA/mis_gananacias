@@ -130,7 +130,7 @@ body:after {
     border-color: #d58512;
 }
 .ui-keyboard .ui-keyboard-shift {
-    background-color: #428bca;
+    background-color: #4a4aff;
     border-color: #357ebd;
     color: #fff;
     width: 4.55em;
@@ -570,7 +570,7 @@ body:after {
     .navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
     .navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
         color: #fff !important;
-        background-color: #428bca !important;
+        background-color: #4a4aff !important;
     }
     .navbar .navbar-nav .open .dropdown-menu > .disabled > a,
     .navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover,

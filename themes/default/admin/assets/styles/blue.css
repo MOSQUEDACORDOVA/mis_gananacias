@@ -2,29 +2,29 @@
 =================================================================== */
 #content, #content:before { border-left: none !important; }
 #content.sidebar-minified {
-    border-left: 40px solid #428BCA !important;
+    border-left: 40px solid #4a4aff !important;
 }
 .navbar, a.navbar-brand span, .header-nav a.btn, .header-nav a.btn.account {
-    background: #428BCA;
+    background: #4a4aff;
     color: #FFF !important;
 }
 .header-nav a.btn, .navbar #search input, .navbar #search i, .header-nav a.btn.cart {
     background: #3276B1;
 }
 .bnav  {
-    background: #428BCA;
+    background: #4a4aff;
     color: #282b2e;
 }
 footer  {
-    background: #428BCA;
+    background: #4a4aff;
     color: #fff;
 }
 .navbar #search {
     background: #3276B1;
-    border: 1px solid #428BCA;
+    border: 1px solid #4a4aff;
 }
 .header-nav a.btn{
-    border-left: 1px solid #428BCA;
+    border-left: 1px solid #4a4aff;
 }
 
 .header-nav a.btn:hover,
@@ -34,7 +34,7 @@ footer  {
     background: #3276B1;
 }
 a#main-menu-toggle {
-  background: #428BCA;
+  background: #4a4aff;
 }
 a#main-menu-toggle.close {
   opacity: 1;
@@ -62,7 +62,7 @@ a#main-menu-min i:hover {
     background: none; 
 }
 .lt td.sidebar-con { 
-    background-color: #428BCA;
+    background-color: #4a4aff;
 }
 .nav.main-menu > li:first-child > a {
     border-top: 1px solid #3276B1;
@@ -77,7 +77,7 @@ a#main-menu-min i:hover {
 .nav.main-menu > li > ul > li > ul > li > ul > li > a {
   color: #ffffff;
   border-bottom: 1px solid #3276B1;
-  background: #428BCA;
+  background: #4a4aff;
 }
 .nav.main-menu > li > a .chevron,
 .nav.main-menu > li > ul > li > a .chevron,
@@ -151,7 +151,7 @@ a#main-menu-min i:hover {
   border-right: 0;
 }
 #sidebar-left.minified .sidebar-nav > ul > li > a .text {
-  background: #428BCA;
+  background: #4a4aff;
   border: 1px solid #39B3D3;
 }
 #sidebar-left.minified .sidebar-nav > ul > li:hover > a .text {
@@ -166,7 +166,7 @@ a#main-menu-min i:hover {
 }
 #sidebar-left.minified .sidebar-nav > ul > li:hover > ul {
   top: 38px;
-  background: #428BCA;
+  background: #4a4aff;
   border: 1px solid #3276B1;
   border-bottom: none;
 }
