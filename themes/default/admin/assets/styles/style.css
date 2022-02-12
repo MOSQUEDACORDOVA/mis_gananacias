@@ -25,8 +25,8 @@ h1 {
     font-weight: bold;
 }
 h2 {
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 18px;
+    line-height: 18px;
     font-weight: bold;
 }
 h3 {
@@ -240,14 +240,16 @@ h6 {
 .box .box-content {
     padding: 20px;
     background: white;
+    border: 1px solid #dedeff;
+    border-radius: 8px;
 }
 .box .box-content p.introtext{
-    margin: -20px -20px 20px -20px;
     padding: 0px;
 }
 .box .box-content.no-padding {
     background: white;
     padding: 1px 0;
+
 }
 .small-box {
     margin-bottom: 20px;
