@@ -719,7 +719,7 @@ class Pos extends MY_Controller
             . lang('i_m_sure') . "</a> <button class='btn po-close'>" . lang('no') . "</button>\"  rel='popover'><i class=\"fa fa-trash-o\"></i> "
             . lang('delete_sale') . '</a>';
         $action = '<div class="text-center"><div class="btn-group text-left">'
-            . '<button type="button" class="btn btn-default btn-xs btn-primary dropdown-toggle" data-toggle="dropdown"><i class="fa-solid fa-ellipsis-vertical"></i>
+            . '<button type="button" class="btn btn-default btn-xs btn-primary" data-toggle="dropdown"><i class="fa-solid fa-ellipsis-vertical"></i>
              <span class="caret"></span></button>
             <ul class="dropdown-menu pull-right" role="menu">
                 <li>' . $duplicate_link . '</li>
