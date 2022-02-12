@@ -386,6 +386,7 @@
                             <li class="mm_products">
                                 <a class="dropmenu" href="#">
                                     <i class="fa fa-barcode"></i>
+                                    <img src="https://img.icons8.com/plumpy/24/000000/box--v2.png"/>
                                     <span class="text"> <?= lang('products'); ?> </span>
                                     <span class="chevron closed"></span>
                                 </a>
