@@ -77,12 +77,15 @@
             <div class="header-nav">
                 <ul class="nav navbar-nav pull-right">
                     <li class="dropdown">
-                        <a class="btn account dropdown-toggle" data-toggle="dropdown" href="#">
+                        <a class="btn tip account dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-user"></i>
+                            <!--
                             <img alt="" src="<?= $this->session->userdata('avatar') ? base_url() . 'assets/uploads/avatars/thumbs/' . $this->session->userdata('avatar') : base_url('assets/images/' . $this->session->userdata('gender') . '.png'); ?>" class="mini_avatar img-rounded">
 
                             <div class="user">
                                 <span><?= lang('welcome') ?> <?= $this->session->userdata('username'); ?></span>
                             </div>
+                            -->
                         </a>
                         <ul class="dropdown-menu pull-right">
                             <li>
@@ -104,7 +107,14 @@
                     </li>
                 </ul>
                 <ul class="nav navbar-nav pull-right">
-                    <li class="dropdown hidden-xs"><a class="btn tip" title="<?= lang('dashboard') ?>" data-placement="bottom" href="<?= admin_url('welcome') ?>"><i class="fa fa-dashboard"></i></a></li>
+                    <li class="dropdown hidden-xs">
+                        <a class="btn tip" 
+                            title="<?= lang('dashboard') ?>" 
+                            data-placement="bottom" 
+                            href="<?= admin_url('welcome') ?>">
+                            <i class="fa fa-dashboard"></i>
+                        </a>
+                    </li>
                     <?php if (SHOP) {
         ?>
                     <li class="dropdown hidden-xs"><a class="btn tip" title="<?= lang('shop') ?>" data-placement="bottom" href="<?= base_url() ?>"><i class="fa fa-shopping-cart"></i></a></li>
@@ -312,7 +322,7 @@
                     <?php if (POS) {
                                 ?>
                     <li class="dropdown hidden-xs">
-                        <a class="btn bdarkGreen tip" title="<?= lang('pos') ?>" data-placement="bottom" href="<?= admin_url('pos') ?>">
+                        <a class="btn  tip" title="<?= lang('pos') ?>" data-placement="bottom" href="<?= admin_url('pos') ?>">
                             <i class="fa fa-th-large"></i> <span class="padding05"><?= lang('pos') ?></span>
                         </a>
                     </li>
@@ -321,7 +331,7 @@
                     <?php if ($Owner) {
                                 ?>
                         <li class="dropdown">
-                            <a class="btn bdarkGreen tip" id="today_profit" title="<span><?= lang('today_profit') ?></span>"
+                            <a class="btn  tip" id="today_profit" title="<span><?= lang('today_profit') ?></span>"
                                 data-placement="bottom" data-html="true" href="<?= admin_url('reports/profit') ?>"
                                 data-toggle="modal" data-target="#myModal">
                                 <i class="fa fa-hourglass-2"></i>
@@ -334,14 +344,14 @@
                     <?php if (POS) {
                                     ?>
                     <li class="dropdown hidden-xs">
-                        <a class="btn bblue tip" title="<?= lang('list_open_registers') ?>" data-placement="bottom" href="<?= admin_url('pos/registers') ?>">
+                        <a class="btn  tip" title="<?= lang('list_open_registers') ?>" data-placement="bottom" href="<?= admin_url('pos/registers') ?>">
                             <i class="fa fa-list"></i>
                         </a>
                     </li>
                     <?php
                                 } ?>
                     <li class="dropdown hidden-xs">
-                        <a class="btn bred tip" title="<?= lang('clear_ls') ?>" data-placement="bottom" id="clearLS" href="#">
+                        <a class="btn  tip" title="<?= lang('clear_ls') ?>" data-placement="bottom" id="clearLS" href="#">
                             <i class="fa fa-eraser"></i>
                         </a>
                     </li>

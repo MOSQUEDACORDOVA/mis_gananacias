@@ -80,6 +80,7 @@ h6 {
     transition: transform 0.2s ease-in-out 0s, margin 0.2s ease-in-out 0s;
 }
 #sidebar-left {
+    margin-top: 22px;
     padding: 10px;
     transition: transform 0.2s ease-in-out 0s, width 0.2s ease-in-out 0s;
 }
@@ -121,6 +122,7 @@ h6 {
     border-radius: 0px;
     height: 40px;
     position: relative;
+    margin-top: 32px;
 }
 .breadcrumb > li + li.right_log:before {
     content: none;
@@ -131,7 +133,6 @@ h6 {
     right: 0px;
     height: 32px;
     border: none;
-    padding: 10px 0 0 0;
     text-align:right;
     max-width: 600px;
     overflow: hidden;
@@ -648,7 +649,7 @@ a.navbar-brand.noBg {
     float: left;
 }
 .header-nav a.btn:hover {
-    background: #282b2e;
+    color: #4a4aff !important;
 }
 .header-nav .user {
     display: inline-block;
@@ -711,7 +712,6 @@ a#main-menu-toggle.close {
 }
 a#main-menu-act {
     display: block;
-    border-bottom: 1px solid #111;
     width: 100%;
     margin: 30px 0;
     position: relative;
@@ -724,10 +724,9 @@ a#main-menu-act i {
     margin-left: -10px;
     width: 20px;
     height: 20px;
-    background: #111;
     font-size: 14px;
     padding: 3px 0px;
-    color: #CCC;
+    color: #4a4aff;
     text-align: center;
 }
 a#main-menu-act i:hover {
@@ -1059,7 +1058,7 @@ a#main-menu-act i:hover {
 /* Footer Styles
 =================================================================== */
 footer {
-    background: #000;
+    background: #00003d;
     color: white;
     height: 40px;
     padding: 12px 20px 18px 20px !important;
