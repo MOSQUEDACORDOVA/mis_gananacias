@@ -1110,6 +1110,7 @@ footer a {
 }
 .quick-button.small i {
     font-size: 20px;
+    margin-bottom: 8px;
 }
 .quick-button.small .notification {
     top: -1px;
@@ -1643,6 +1644,11 @@ ul.enlarge li:hover span{
     border-radius: 4px;
     overflow: hidden;
     border: 1px solid #e9e9fb;
+}
+.quick-button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .dataTables_processing {
     position: absolute;
