@@ -208,7 +208,7 @@
                     </li>
                     <?php
     } ?>
-                    <li class="dropdown hidden-sm">
+                    <!--<li class="dropdown hidden-sm">
                         <a class="btn tip" title="<?= lang('styles') ?>" data-placement="bottom" data-toggle="dropdown"
                            href="#">
                             <i class="fa fa-css3"></i>
@@ -230,7 +230,7 @@
                                </a>
                            </li>
                         </ul>
-                    </li>
+                    </li>-->
                     <li class="dropdown hidden-xs">
                         <a class="btn tip" title="<?= lang('language') ?>" data-placement="bottom" data-toggle="dropdown"
                            href="#">
@@ -273,7 +273,7 @@
                             <a class="btn blightOrange tip" title="<?= lang('alerts') ?>"
                                 data-placement="left" data-toggle="dropdown" href="#">
                                 <i class="fa fa-exclamation-triangle"></i>
-                                <span class="number bred black d-none">
+                                <span class="number bred black" style="display:none;">
                                     <?= 
                                         $qty_alert_num + (($Settings->product_expiry) ? $exp_alert_num : 0) + $shop_sale_alerts + $shop_payment_alerts; ?>
                                 </span>
