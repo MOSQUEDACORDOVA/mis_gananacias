@@ -76,7 +76,6 @@ h6 {
     width: 0px;
 }
 #content {
-    background-color: #F3F3F3;
     padding: 0 15px;
     transition: transform 0.2s ease-in-out 0s, margin 0.2s ease-in-out 0s;
 }
@@ -119,11 +118,9 @@ h6 {
     border-radius: 0px;
 }
 .breadcrumb {
-    background: #e9ebec;
     border-radius: 0px;
     height: 40px;
     position: relative;
-    border-bottom: 1px solid #dbdee0;
 }
 .breadcrumb > li + li.right_log:before {
     content: none;
@@ -134,7 +131,7 @@ h6 {
     right: 0px;
     height: 32px;
     border: none;
-    padding: 10px 10px 0 0;
+    padding: 10px 0 0 0;
     text-align:right;
     max-width: 600px;
     overflow: hidden;
@@ -367,12 +364,7 @@ label.checkbox {
     right: 5px !important;
     width: auto;
 }
-.btn, .form-control {
-    border-radius: 0 !important;
-}
-.btn, .form-control {
-    border-radius: 0 !important;
-}
+
 .popover, .tooltip {
     width: auto;
 }
@@ -623,12 +615,12 @@ a.navbar-brand.noBg {
     height: 30px;
     min-width: 40px;
     width: auto;
-    background: #40454a;
+    background: rgba(231, 231, 255, 1);
     color: #00003d !important;
     text-shadow: none !important;
     padding: 5px 10px !important;
     margin: 5px 3px;
-    border-radius: 0px;
+    border-radius: 8px;
     font-size: 12px;
 }
 .header-nav a.btn .number {
@@ -1180,7 +1172,6 @@ ul.DTTT_dropdown.dropdown-menu li {
 .DTTT_Print .bnav, .DTTT_Print #content {
     width: 100% !important;
     margin: 0 !important;
-    background: #F3F3F3 !important;
     border: 0 !important;
     min-height: auto !important;
 }
@@ -1797,10 +1788,6 @@ animation: blink 1s steps(2, start) infinite;
     .container {
         width: 100% !important;
     }
-    .container .breadcrumb {
-        margin: 0px -15px 15px -15px;
-        padding: 10px;
-    }
 }
 /* Higher than 992 (desktop devices)
 ====================================================================== */
@@ -1821,10 +1808,7 @@ animation: blink 1s steps(2, start) infinite;
     .container {
         width: 100% !important;
     }
-    .container .breadcrumb {
-        margin: -15px -15px 15px -15px;
-        padding: 10px;
-    }
+
 }
 /* Tablet Portrait (devices and browsers)
 ====================================================================== */
@@ -1850,10 +1834,7 @@ animation: blink 1s steps(2, start) infinite;
     .container #content {
         padding: 15px;
     }
-    .container .breadcrumb {
-        margin: -15px -15px 15px -15px;
-        padding: 10px;
-    }
+
     .btn-navbar {
         display: none !important;
     }
@@ -1923,9 +1904,7 @@ animation: blink 1s steps(2, start) infinite;
         min-width: 200px !important;
         width: auto !important;
     }
-    #content .breadcrumb {
-        margin: -4px -5px 10px -5px;
-    }
+
     .dataTables_wrapper label {
         width: 100%; margin-top: 5px;
     }
