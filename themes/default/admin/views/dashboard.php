@@ -77,7 +77,7 @@ function row_status($x)
 
                 <div class="col-lg-1 col-md-2 col-xs-6">
                     <a class=" quick-button small" href="<?= admin_url('purchases') ?>">
-                        <i class="fa fa-star"></i>
+                    <img src="https://img.icons8.com/fluency/48/000000/shopping-cart.png"/>
 
                         <p><?= lang('purchases') ?></p>
                     </a>
@@ -85,7 +85,7 @@ function row_status($x)
 
                 <div class="col-lg-1 col-md-2 col-xs-6">
                     <a class=" quick-button small" href="<?= admin_url('transfers') ?>">
-                        <i class="fa fa-star-o"></i>
+                    <img src="https://img.icons8.com/fluency/48/000000/move-stock.png"/>
 
                         <p><?= lang('transfers') ?></p>
                     </a>
@@ -93,7 +93,7 @@ function row_status($x)
 
                 <div class="col-lg-1 col-md-2 col-xs-6">
                     <a class=" quick-button small" href="<?= admin_url('customers') ?>">
-                        <i class="fa fa-users"></i>
+                    <img src="https://img.icons8.com/fluency/48/000000/group-background-selected.png"/>
 
                         <p><?= lang('customers') ?></p>
                     </a>
@@ -101,7 +101,7 @@ function row_status($x)
 
                 <div class="col-lg-1 col-md-2 col-xs-6">
                     <a class=" quick-button small" href="<?= admin_url('suppliers') ?>">
-                        <i class="fa fa-users"></i>
+                    <img src="https://img.icons8.com/fluency/48/000000/supplier.png"/>
 
                         <p><?= lang('suppliers') ?></p>
                     </a>
@@ -109,7 +109,7 @@ function row_status($x)
 
                 <div class="col-lg-1 col-md-2 col-xs-6">
                     <a class=" quick-button small" href="<?= admin_url('notifications') ?>">
-                        <i class="fa fa-comments"></i>
+                    <img src="https://img.icons8.com/fluency/48/000000/appointment-reminders.png"/>
 
                         <p><?= lang('notifications') ?></p>
                         <!--<span class="notification green">4</span>-->
@@ -120,13 +120,13 @@ function row_status($x)
             ?>
                     <div class="col-lg-1 col-md-2 col-xs-6">
                         <a class=" quick-button small" href="<?= admin_url('auth/users') ?>">
-                            <i class="fa fa-group"></i>
+                        <img src="https://img.icons8.com/fluency/48/000000/group-background-selected.png"/>
                             <p><?= lang('users') ?></p>
                         </a>
                     </div>
                     <div class="col-lg-1 col-md-2 col-xs-6">
                         <a class=" quick-button small" href="<?= admin_url('system_settings') ?>">
-                            <i class="fa fa-cogs"></i>
+                        <img src="https://img.icons8.com/fluency/48/000000/settings.png"/>
 
                             <p><?= lang('settings') ?></p>
                         </a>
@@ -181,7 +181,7 @@ function row_status($x)
             ?>
                 <div class="col-lg-1 col-md-2 col-xs-6">
                     <a class="bred white quick-button small" href="<?= admin_url('purchases') ?>">
-                        <i class="fa fa-star"></i>
+                    <img src="https://img.icons8.com/fluency/48/000000/shopping-cart.png"/>
                         <p><?= lang('purchases') ?></p>
                     </a>
                 </div>
@@ -191,7 +191,7 @@ function row_status($x)
             ?>
                 <div class="col-lg-1 col-md-2 col-xs-6">
                     <a class="bpink white quick-button small" href="<?= admin_url('transfers') ?>">
-                        <i class="fa fa-star-o"></i>
+                    <img src="https://img.icons8.com/fluency/48/000000/move-stock.png"/>
                         <p><?= lang('transfers') ?></p>
                     </a>
                 </div>
@@ -201,7 +201,7 @@ function row_status($x)
             ?>
                 <div class="col-lg-1 col-md-2 col-xs-6">
                     <a class="bgrey white quick-button small" href="<?= admin_url('customers') ?>">
-                        <i class="fa fa-users"></i>
+                    <img src="https://img.icons8.com/fluency/48/000000/group-background-selected.png"/>
                         <p><?= lang('customers') ?></p>
                     </a>
                 </div>
@@ -211,7 +211,7 @@ function row_status($x)
             ?>
                 <div class="col-lg-1 col-md-2 col-xs-6">
                     <a class="bgrey white quick-button small" href="<?= admin_url('suppliers') ?>">
-                        <i class="fa fa-users"></i>
+                    <img src="https://img.icons8.com/fluency/48/000000/supplier.png"/>
 
                         <p><?= lang('suppliers') ?></p>
                     </a>
