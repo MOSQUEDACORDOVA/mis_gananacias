@@ -53,14 +53,14 @@ function row_status($x)
             </div>
             <div class="box-content">
                 <div class="col-lg-1 col-md-2 col-xs-6">
-                    <a class="bblue white quick-button small" href="<?= admin_url('products') ?>">
+                    <a class="  quick-button small" href="<?= admin_url('products') ?>">
                         <i class="fa fa-barcode"></i>
 
                         <p><?= lang('products') ?></p>
                     </a>
                 </div>
                 <div class="col-lg-1 col-md-2 col-xs-6">
-                    <a class="bdarkGreen white quick-button small" href="<?= admin_url('sales') ?>">
+                    <a class="  quick-button small" href="<?= admin_url('sales') ?>">
                         <i class="fa fa-heart"></i>
 
                         <p><?= lang('sales') ?></p>
@@ -68,7 +68,7 @@ function row_status($x)
                 </div>
 
                 <div class="col-lg-1 col-md-2 col-xs-6">
-                    <a class="blightOrange white quick-button small" href="<?= admin_url('quotes') ?>">
+                    <a class="  quick-button small" href="<?= admin_url('quotes') ?>">
                         <i class="fa fa-heart-o"></i>
 
                         <p><?= lang('quotes') ?></p>
@@ -76,7 +76,7 @@ function row_status($x)
                 </div>
 
                 <div class="col-lg-1 col-md-2 col-xs-6">
-                    <a class="bred white quick-button small" href="<?= admin_url('purchases') ?>">
+                    <a class=" quick-button small" href="<?= admin_url('purchases') ?>">
                         <i class="fa fa-star"></i>
 
                         <p><?= lang('purchases') ?></p>
@@ -84,7 +84,7 @@ function row_status($x)
                 </div>
 
                 <div class="col-lg-1 col-md-2 col-xs-6">
-                    <a class="bpink white quick-button small" href="<?= admin_url('transfers') ?>">
+                    <a class=" quick-button small" href="<?= admin_url('transfers') ?>">
                         <i class="fa fa-star-o"></i>
 
                         <p><?= lang('transfers') ?></p>
@@ -92,7 +92,7 @@ function row_status($x)
                 </div>
 
                 <div class="col-lg-1 col-md-2 col-xs-6">
-                    <a class="bgrey white quick-button small" href="<?= admin_url('customers') ?>">
+                    <a class=" quick-button small" href="<?= admin_url('customers') ?>">
                         <i class="fa fa-users"></i>
 
                         <p><?= lang('customers') ?></p>
@@ -100,7 +100,7 @@ function row_status($x)
                 </div>
 
                 <div class="col-lg-1 col-md-2 col-xs-6">
-                    <a class="bgrey white quick-button small" href="<?= admin_url('suppliers') ?>">
+                    <a class=" quick-button small" href="<?= admin_url('suppliers') ?>">
                         <i class="fa fa-users"></i>
 
                         <p><?= lang('suppliers') ?></p>
@@ -108,7 +108,7 @@ function row_status($x)
                 </div>
 
                 <div class="col-lg-1 col-md-2 col-xs-6">
-                    <a class="blightBlue white quick-button small" href="<?= admin_url('notifications') ?>">
+                    <a class=" quick-button small" href="<?= admin_url('notifications') ?>">
                         <i class="fa fa-comments"></i>
 
                         <p><?= lang('notifications') ?></p>
@@ -119,13 +119,13 @@ function row_status($x)
                 <?php if ($Owner) {
             ?>
                     <div class="col-lg-1 col-md-2 col-xs-6">
-                        <a class="bblue white quick-button small" href="<?= admin_url('auth/users') ?>">
+                        <a class=" quick-button small" href="<?= admin_url('auth/users') ?>">
                             <i class="fa fa-group"></i>
                             <p><?= lang('users') ?></p>
                         </a>
                     </div>
                     <div class="col-lg-1 col-md-2 col-xs-6">
-                        <a class="bblue white quick-button small" href="<?= admin_url('system_settings') ?>">
+                        <a class=" quick-button small" href="<?= admin_url('system_settings') ?>">
                             <i class="fa fa-cogs"></i>
 
                             <p><?= lang('settings') ?></p>
