@@ -75,8 +75,11 @@ h6 {
 .sidebar-minified .lt td.sidebar-con {
     width: 0px;
 }
+#header #content{
+    padding-right: 78px;
+}
 #content {
-    padding: 0 15px;
+    padding: 0 64px;
     transition: transform 0.2s ease-in-out 0s, margin 0.2s ease-in-out 0s;
 }
 #sidebar-left {
