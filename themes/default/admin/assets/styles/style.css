@@ -621,7 +621,7 @@ a.navbar-brand.noBg {
     min-width: 40px;
     width: auto;
     background: rgba(231, 231, 255, 1);
-    color: #00003d !important;
+    color: #00003d ;
     text-shadow: none !important;
     padding: 5px 10px !important;
     margin: 5px 3px;

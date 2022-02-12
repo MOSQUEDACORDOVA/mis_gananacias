@@ -1443,9 +1443,9 @@
                         } ?>
                     </ul>
                 </div>
-                <a href="#" id="main-menu-act" class="full visible-md visible-lg">
+                <!--<a href="#" id="main-menu-act" class="full visible-md visible-lg" >
                     <i class="fa fa-angle-double-left"></i>
-                </a>
+                </a>-->
             </div>
             </td><td class="content-con">
             <div id="content">
