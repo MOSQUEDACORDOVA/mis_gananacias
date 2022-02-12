@@ -61,7 +61,7 @@
                 <?php if (POS) {
         ?>
                 <a href="<?= admin_url('pos') ?>" class="btn">
-                    <span class="fa fa-th-large"></span>
+                    <span class="fa-solid fa-cash-register"></span>
                 </a>
                 <?php
     } ?>
@@ -124,7 +124,7 @@
                     <?php if (POS) {
         ?>
                     <a href="<?= admin_url('pos') ?>" class="btn">
-                        <span class="fa fa-th-large"></span>
+                        <span class="fa-solid fa-cash-register"></span>
                     </a>
                     <?php
     } ?>
@@ -327,7 +327,7 @@
                                 ?>
                     <li class="dropdown hidden-xs">
                         <a class="btn  tip" title="<?= lang('pos') ?>" data-placement="bottom" href="<?= admin_url('pos') ?>">
-                            <i class="fa fa-th-large"></i> <span class="padding05"><?= lang('pos') ?></span>
+                            <i class="fa-solid fa-cash-register"></i> <span class="padding05"><?= lang('pos') ?></span>
                         </a>
                     </li>
                     <?php
@@ -678,7 +678,7 @@
                                     ?>
                                         <li id="pos_settings">
                                             <a href="<?= admin_url('pos/settings') ?>">
-                                                <i class="fa fa-th-large"></i><span class="text"> <?= lang('pos_settings'); ?></span>
+                                                <i class="fa-solid fa-cash-register"></i><span class="text"> <?= lang('pos_settings'); ?></span>
                                             </a>
                                         </li>
                                         <li id="promos_index">
@@ -808,7 +808,7 @@
                                 ?>
                                     <li id="reports_register">
                                         <a href="<?= admin_url('reports/register') ?>">
-                                            <i class="fa fa-th-large"></i><span class="text"> <?= lang('register_report'); ?></span>
+                                            <i class="fa-solid fa-cash-register"></i><span class="text"> <?= lang('register_report'); ?></span>
                                         </a>
                                     </li>
                                     <?php
