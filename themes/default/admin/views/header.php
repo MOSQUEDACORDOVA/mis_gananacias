@@ -272,7 +272,10 @@
                             <a class="btn blightOrange tip" title="<?= lang('alerts') ?>"
                                 data-placement="left" data-toggle="dropdown" href="#">
                                 <i class="fa fa-exclamation-triangle"></i>
-                                <span class="number bred black"><?= $qty_alert_num + (($Settings->product_expiry) ? $exp_alert_num : 0) + $shop_sale_alerts + $shop_payment_alerts; ?></span>
+                                <span class="number bred black d-none">
+                                    <?= 
+                                        $qty_alert_num + (($Settings->product_expiry) ? $exp_alert_num : 0) + $shop_sale_alerts + $shop_payment_alerts; ?>
+                                </span>
                             </a>
                             <ul class="dropdown-menu pull-right">
                                 <?php if ($qty_alert_num > 0) {

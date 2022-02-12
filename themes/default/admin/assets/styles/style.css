@@ -477,9 +477,11 @@ select.form-control option {
 }
 .black {
     color: #000000 !important;
+    color: #fff !important;
 }
 .bblue {
     background: #4a4aff !important;
+    color: #fff !important;
 }
 .blightBlue {
     background: #5BC0DE !important;
@@ -501,12 +503,14 @@ select.form-control option {
 }
 .blightOrange {
     background: #ffb400 !important;
+    color: #fff !important;
 }
 .bpurple {
     background: #8e44ad !important;
 }
 .bred {
     background: #ff0055 !important;
+    color: #fff !important;
 }
 .byellow {
     background: #eae874 !important;
