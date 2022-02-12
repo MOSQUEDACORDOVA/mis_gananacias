@@ -440,42 +440,55 @@ select.form-control option {
 =================================================================== */
 .blue {
     color: #00003d !important;
+    color: #fff !important;
 }
 .lightBlue {
     color: #5BC0DE !important;
+    color: #fff !important;
 }
 .green {
     color: #bdea74 !important;
+    color: #fff !important;
 }
 .mGreen {
     color: #16a085 !important;
+    color: #fff !important;
 }
 .darkGreen {
     color: #00c799 !important;
+    color: #fff !important;
 }
 .pink {
     color: #e84c8a !important;
+    color: #fff !important;
 }
 .orange {
-    color: #fa603d !important;
+    color: #ff0055 !important;
+    color: #fff !important;
 }
 .lightOrange {
     color: #ffb400 !important;
+    color: #fff !important;
 }
 .purple {
     color: #8e44ad !important;
+    color: #fff !important;
 }
 .red {
     color: #ff0055 !important;
+    color: #fff !important;
 }
 .yellow {
     color: #eae874 !important;
+    color: #fff !important;
 }
 .white {
     color: white !important;
+    color: #fff !important;
 }
 .grey {
     color: #7676a8 !important;
+    color: #fff !important;
 }
 .black {
     color: #000000 !important;
@@ -487,21 +500,27 @@ select.form-control option {
 }
 .blightBlue {
     background: #5BC0DE !important;
+    color: #fff !important;
 }
 .bgreen {
     background: #bdea74 !important;
+    color: #fff !important;
 }
 .bmGreen {
     background: #16a085 !important;
+    color: #fff !important;
 }
 .bdarkGreen {
     background: #00c799 !important;
+    color: #fff !important;
 }
 .bpink {
     background: #e84c8a !important;
+    color: #fff !important;
 }
 .borange {
-    background: #fa603d !important;
+    background: #ff0055 !important;
+    color: #fff !important;
 }
 .blightOrange {
     background: #ffb400 !important;
@@ -509,6 +528,7 @@ select.form-control option {
 }
 .bpurple {
     background: #8e44ad !important;
+    color: #fff !important;
 }
 .bred {
     background: #ff0055 !important;
@@ -516,6 +536,7 @@ select.form-control option {
 }
 .byellow {
     background: #eae874 !important;
+    color: #fff !important;
 }
 .bwhite {
     background: white !important;
@@ -528,6 +549,7 @@ select.form-control option {
 }
 .bblack {
     background: #000000 !important;
+    color: #fff !important;
 }
 .clearfix {
     *zoom: 1;

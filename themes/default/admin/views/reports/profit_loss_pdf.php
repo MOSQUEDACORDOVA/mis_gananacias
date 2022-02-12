@@ -13,7 +13,7 @@
     <div class="row">
 
         <div class="col-xs-6" style="padding-left:0; padding-right:0; padding-bottom:15px;">
-            <div style="padding: 5px 10px; color: #FFF; background: #fa603d;">
+            <div style="padding: 5px 10px; color: #FFF; background: #ff0055;">
                 <h4 class="bold text-muted"><?= lang('purchases') ?></h4>
                 <i class="icon fa fa-star"></i>
 
@@ -69,7 +69,7 @@
             </div>
         </div>
         <div class="col-xs-2" style="padding-left:0; padding-right:28px; padding-bottom:15px;">
-            <div style="padding: 5px 10px; color: #FFF; background: #fa603d;">
+            <div style="padding: 5px 10px; color: #FFF; background: #ff0055;">
                 <h4 class="bold text-muted"><?= lang('payments_sent') ?><br><br></h4>
                 <i class="icon fa fa-usd"></i>
 
