@@ -120,9 +120,9 @@ h6 {
 }
 .breadcrumb {
     border-radius: 0px;
-    height: 40px;
     position: relative;
     margin-top: 32px;
+    margin-bottom: 0;
 }
 .breadcrumb > li + li.right_log:before {
     content: none;
@@ -153,7 +153,6 @@ h6 {
     padding: 0px !important;
 }
 .box {
-    border: 1px solid #dbdee0;
     margin-bottom: 15px;
 }
 .box .box-content .panel ol, .box .box-content .panel ul {
@@ -163,11 +162,7 @@ h6 {
     overflow: hidden;
 }
 .box .box-header {
-    background: white;
-    color: #34383c;
     font-size: 16px;
-    background: #f7f7f8;
-    border-bottom: 1px solid #dbdee0;
     height: 40px;
 }
 .box .box-header h2 {
@@ -176,10 +171,8 @@ h6 {
     margin: 0px 0px 0px 20px;
 }
 .box .box-header h2 i {
-    border-right: 1px solid #dbdee0;
     padding: 12px 0px;
     height: 40px;
-    width: 40px;
     display: inline-block;
     text-align: center;
     margin: -10px 20px -10px -20px;
@@ -201,7 +194,6 @@ h6 {
     height: 40px;
     width: 40px;
     padding: 12px 0px;
-    border-left: 1px solid #ced1d4;
     text-decoration: none;
 }
 .box-icon .choose-date {
@@ -250,10 +242,8 @@ h6 {
     background: white;
 }
 .box .box-content p.introtext{
-    background: #F9F9F9;
     margin: -20px -20px 20px -20px;
-    padding: 10px;
-    border-bottom: 1px solid #DBDEE0;
+    padding: 0px;
 }
 .box .box-content.no-padding {
     background: white;
@@ -437,7 +427,7 @@ select.form-control option {
 /* Colors and Backgrouds
 =================================================================== */
 .blue {
-    color: #428BCA !important;
+    color: #00003d !important;
 }
 .lightBlue {
     color: #5BC0DE !important;
@@ -1453,7 +1443,6 @@ div.DTFC_LeftFootWrapper table {
     bottom:0px;
 }
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-    background-color: #aaa;
     outline: none;
 }
 .buttons .btn {
