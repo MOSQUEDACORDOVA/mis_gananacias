@@ -1547,7 +1547,7 @@ function getSlug(title, type) {
 function openImg(img) {
     var imgwindow = window.open('', 'sma_pos_img');
     imgwindow.document.write('<html><head><title>Screenshot</title>');
-    imgwindow.document.write('<link rel="stylesheet" href="' + site.assets + 'styles/helpers/bootstrap.min.css" type="text/css" />');
+    imgwindow.document.write('<link rel="stylesheet" href="' + site.assets + 'styles/helpers/bootstrap.min.css?v=2" type="text/css" />');
     imgwindow.document.write('</head><body style="display:flex;align-items:center;justify-content:center;">');
     imgwindow.document.write('<img src="' + img + '" class="img-thumbnail"/>');
     imgwindow.document.write('</body></html>');

@@ -5,7 +5,7 @@
     <title><?= $page_title . ' | ' . $Settings->site_name; ?></title>
     <link rel="shortcut icon"  href="<?= $assets ?>img/icon.png"/>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <link href="<?= $assets ?>styles/helpers/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?= $assets ?>styles/helpers/bootstrap.min.css?v=2" rel="stylesheet" type="text/css" />
     <link href="<?= $assets ?>styles/helpers/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
     <style>
         body { text-align:center; }

@@ -5,7 +5,7 @@
     <base href="<?= admin_url() ?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $product->name ?> - <?= $Settings->site_name ?></title>
-    <link href="<?= $assets ?>styles/pdf/bootstrap.min.css" rel="stylesheet">
+    <link href="<?= $assets ?>styles/pdf/bootstrap.min.css?v=2" rel="stylesheet">
     <link href="<?= $assets ?>styles/pdf/pdf.css" rel="stylesheet">
 <body>
 <div class="row">

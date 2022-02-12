@@ -998,7 +998,7 @@ class Purchases extends MY_Controller
 
         $this->load->library('parser');
         $parse_data = [
-            'stylesheet' => '<link href="' . $this->data['assets'] . 'styles/helpers/bootstrap.min.css" rel="stylesheet"/>',
+            'stylesheet' => '<link href="' . $this->data['assets'] . 'styles/helpers/bootstrap.min.css?v=2" rel="stylesheet"/>',
             'name'       => $supplier->company && $supplier->company != '-' ? $supplier->company : $supplier->name,
             'email'      => $supplier->email,
             'heading'    => lang('payment_note') . '<hr>',

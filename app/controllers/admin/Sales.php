@@ -1370,7 +1370,7 @@ class Sales extends MY_Controller
 
         $this->load->library('parser');
         $parse_data = [
-            'stylesheet' => '<link href="' . $this->data['assets'] . 'styles/helpers/bootstrap.min.css" rel="stylesheet"/>',
+            'stylesheet' => '<link href="' . $this->data['assets'] . 'styles/helpers/bootstrap.min.css?v=2" rel="stylesheet"/>',
             'name'       => $customer->company && $customer->company != '-' ? $customer->company : $customer->name,
             'email'      => $customer->email,
             'heading'    => lang('payment_note') . '<hr>',

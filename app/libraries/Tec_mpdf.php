@@ -47,7 +47,7 @@ class Tec_mpdf
         $mpdf->SetAuthor($this->Settings->site_name);
         $mpdf->SetCreator($this->Settings->site_name);
         $mpdf->SetDisplayMode('fullpage');
-        // $stylesheet = file_get_contents('assets/bs/bootstrap.min.css');
+        // $stylesheet = file_get_contents('assets/bs/bootstrap.min.css?v=2');
         // $mpdf->WriteHTML($stylesheet, 1);
         // $mpdf->SetFooter($this->Settings->site_name.'||{PAGENO}/{nbpg}', '', TRUE); // For simple text footer
 

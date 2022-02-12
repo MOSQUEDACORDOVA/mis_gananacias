@@ -2057,7 +2057,7 @@ var lang = {
     function Popup(data) {
         var mywindow = window.open('', 'sma_pos_print', 'height=500,width=300');
         mywindow.document.write('<html><head><title>Print</title>');
-        mywindow.document.write('<link rel="stylesheet" href="<?=$assets?>styles/helpers/bootstrap.min.css" type="text/css" />');
+        mywindow.document.write('<link rel="stylesheet" href="<?=$assets?>styles/helpers/bootstrap.min.css?v=2" type="text/css" />');
         mywindow.document.write('</head><body >');
         mywindow.document.write(data);
         mywindow.document.write('</body></html>');

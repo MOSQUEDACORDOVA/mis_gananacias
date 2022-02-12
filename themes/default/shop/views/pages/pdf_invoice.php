@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= lang('invoice') . ' ' . $inv->reference_no; ?></title>
-    <link href="<?= base_url('themes/' . $Settings->theme . '/admin/assets/styles/pdf/bootstrap.min.css'); ?>" rel="stylesheet">
+    <link href="<?= base_url('themes/' . $Settings->theme . '/admin/assets/styles/pdf/bootstrap.min.css?v=2'); ?>" rel="stylesheet">
     <link href="<?= base_url('themes/' . $Settings->theme . '/admin/assets/styles/pdf/pdf.css'); ?>" rel="stylesheet">
 </head>
 
