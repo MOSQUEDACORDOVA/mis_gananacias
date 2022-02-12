@@ -54,15 +54,14 @@ function row_status($x)
             <div class="box-content">
                 <div class="col-lg-1 col-md-2 col-xs-6">
                     <a class="  quick-button small" href="<?= admin_url('products') ?>">
-                    <img src="https://img.icons8.com/fluency/48/000000/open-box.png"/>
-                        <i class="fa fa-barcode"></i>
+                    <img src="https://img.icons8.com/fluency/48/000000/product.png"/>
 
                         <p><?= lang('products') ?></p>
                     </a>
                 </div>
                 <div class="col-lg-1 col-md-2 col-xs-6">
                     <a class="  quick-button small" href="<?= admin_url('sales') ?>">
-                        <i class="fa fa-heart"></i>
+                    <img src="https://img.icons8.com/fluency/48/000000/total-sales-1.png"/>
 
                         <p><?= lang('sales') ?></p>
                     </a>
@@ -70,7 +69,7 @@ function row_status($x)
 
                 <div class="col-lg-1 col-md-2 col-xs-6">
                     <a class="  quick-button small" href="<?= admin_url('quotes') ?>">
-                        <i class="fa fa-heart-o"></i>
+                    <img src="https://img.icons8.com/fluency/48/000000/bill.png"/>
 
                         <p><?= lang('quotes') ?></p>
                     </a>
@@ -153,9 +152,7 @@ function row_status($x)
             ?>
                 <div class="col-lg-1 col-md-2 col-xs-6">
                     <a class="bblue white quick-button small" href="<?= admin_url('products') ?>">
-                    <img src="https://img.icons8.com/fluency/48/000000/open-box.png"/>
-                        <i class="fa fa-barcode"></i>
-                        <p><?= lang('products') ?></p>
+                    <img src="https://img.icons8.com/fluency/48/000000/product.png"/>
                     </a>
                 </div>
             <?php
@@ -164,7 +161,7 @@ function row_status($x)
             ?>
                 <div class="col-lg-1 col-md-2 col-xs-6">
                     <a class="bdarkGreen white quick-button small" href="<?= admin_url('sales') ?>">
-                        <i class="fa fa-heart"></i>
+                    <img src="https://img.icons8.com/fluency/48/000000/total-sales-1.png"/>
                         <p><?= lang('sales') ?></p>
                     </a>
                 </div>
@@ -174,7 +171,7 @@ function row_status($x)
             ?>
                 <div class="col-lg-1 col-md-2 col-xs-6">
                     <a class="blightOrange white quick-button small" href="<?= admin_url('quotes') ?>">
-                        <i class="fa fa-heart-o"></i>
+                    <img src="https://img.icons8.com/fluency/48/000000/bill.png"/>
                         <p><?= lang('quotes') ?></p>
                     </a>
                 </div>
