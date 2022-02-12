@@ -54,7 +54,7 @@ function row_status($x)
             <div class="box-content">
                 <div class="col-lg-1 col-md-2 col-xs-6">
                     <a class="  quick-button small" href="<?= admin_url('products') ?>">
-                    <img src="https://img.icons8.com/plumpy/24/000000/box--v2.png"/>
+                    <img src="https://img.icons8.com/fluency/48/000000/open-box.png"/>
                         <i class="fa fa-barcode"></i>
 
                         <p><?= lang('products') ?></p>
@@ -153,7 +153,7 @@ function row_status($x)
             ?>
                 <div class="col-lg-1 col-md-2 col-xs-6">
                     <a class="bblue white quick-button small" href="<?= admin_url('products') ?>">
-                    <img src="https://img.icons8.com/plumpy/24/000000/box--v2.png"/>
+                    <img src="https://img.icons8.com/fluency/48/000000/open-box.png"/>
                         <i class="fa fa-barcode"></i>
                         <p><?= lang('products') ?></p>
                     </a>
