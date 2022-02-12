@@ -170,7 +170,7 @@
 
                 <ul class="nav navbar-nav pull-right hidden-smallest">
                     <li class="dropdown">
-                        <a class="btn bblack" style="cursor: default;"><span id="display_time"></span></a>
+                        <a class="btn" style="cursor: default;"><span id="display_time"></span></a>
                     </li>
                 </ul>
             </div>
