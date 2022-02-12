@@ -120,7 +120,7 @@ function row_status($x)
             ?>
                     <div class="col-lg-1 col-md-2 col-xs-6">
                         <a class=" quick-button small" href="<?= admin_url('auth/users') ?>">
-                        <img src="https://img.icons8.com/fluency/48/000000/group-background-selected.png"/>
+                        <img src="https://img.icons8.com/fluency/48/000000/conference-background-selected.png"/>
                             <p><?= lang('users') ?></p>
                         </a>
                     </div>

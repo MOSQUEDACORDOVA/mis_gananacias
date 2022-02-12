@@ -1110,6 +1110,9 @@ footer a {
 }
 .quick-button.small i {
     font-size: 20px;
+}
+.quick-button.small img {
+
     margin-bottom: 8px;
 }
 .quick-button.small .notification {
