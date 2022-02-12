@@ -944,9 +944,6 @@ a#main-menu-act i:hover {
     border-radius: 8px;
 }
 .nav.main-menu > li.active > a:hover {
-    background: #428BCA;
-    color: white;
-    border-color: #428BCA;
     cursor: default;
 }
 .nav.main-menu > li > ul > li.active > a,
@@ -954,10 +951,14 @@ a#main-menu-act i:hover {
 .nav.main-menu > li > ul > li > ul > li > ul > li.active > a {
     cursor: default;
     font-weight: 700;
+    color: #4a4aff;
 }
 
 #sidebar-left.minified .sidebar-nav > ul > li.active > ul {
     border-top: 0;
+}
+.breadcrumb a{
+    color: #4a4aff;
 }
 
 @media (max-width: 991px) {
